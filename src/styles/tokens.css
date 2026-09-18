@@ -1,0 +1,64 @@
+:root {
+  /* Backgrounds */
+  --bg-base: #05070d;
+  --bg-elevated: #0a0f1c;
+  --bg-card: #111827;
+  --bg-overlay: rgba(10, 15, 28, 0.72);
+
+  /* Accents */
+  --accent-cyan: #00e5ff;
+  --accent-blue: #2563eb;
+
+  /* Status */
+  --status-ok: #22c55e;
+  --status-warn: #f59e0b;
+  --status-crit: #ef4444;
+
+  /* Text */
+  --text-primary: #e5e7eb;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Borders & surfaces */
+  --border-subtle: rgba(148, 163, 184, 0.12);
+  --border-strong: rgba(148, 163, 184, 0.22);
+  --glass: rgba(17, 24, 39, 0.55);
+  --glass-hover: rgba(17, 24, 39, 0.75);
+
+  /* Effects */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 18px 48px rgba(0, 0, 0, 0.55);
+  --glow-cyan: 0 0 0 1px rgba(0, 229, 255, 0.25), 0 0 18px rgba(0, 229, 255, 0.18);
+  --glow-blue: 0 0 18px rgba(37, 99, 235, 0.35);
+
+  /* Radius */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-pill: 999px;
+
+  /* Spacing scale */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+
+  /* Layout */
+  --sidebar-w: 248px;
+  --sidebar-w-collapsed: 68px;
+  --topbar-h: 60px;
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Cascadia Code', monospace;
+
+  /* Motion */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast: 140ms;
+  --dur: 240ms;
+  --dur-slow: 480ms;
+}

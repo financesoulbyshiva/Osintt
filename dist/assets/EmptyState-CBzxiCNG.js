@@ -1,0 +1,1 @@
+import{j as s,I as c}from"./index-dMSNXpWP.js";function n({icon:a="search",title:t,description:e,action:m}){return s.jsxs("div",{className:"empty",children:[s.jsx("div",{className:"empty__icon",children:s.jsx(c,{name:a,size:24})}),s.jsx("div",{className:"empty__title",children:t}),e&&s.jsx("div",{className:"empty__desc",children:e}),m]})}export{n as E};
